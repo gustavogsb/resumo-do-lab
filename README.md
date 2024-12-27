@@ -130,3 +130,47 @@ O gerenciamento na nuvem diz respeito à maneira de gerenciar seu ambiente de nu
 		Usando o PowerShell.
 	</li>	
 </ul>
+
+<h1>
+    <span> Tipos de Serviço de Nuvem  	</span>
+</h1>
+
+## IaaS (infraestrutura como serviço)
+Crie uma infraestrutura de TI de pagamento conforme o uso alugando servidores, máquinas virtuais, armazenamento, redes e sistemas operacionais de um provedor de nuvem.
+<ul>
+	<li>
+		O serviço de nuvem mais flexível.
+	</li>
+	<li>
+		Você configura e gerencia o hardware para seu aplicativo.
+	</li>
+</ul>
+
+
+## PaaS (plataforma como serviço)
+Fornece um ambiente para a criação, o teste e a implantação de aplicativos de software, sem focar no gerenciamento da infraestrutura subjacente.
+<ul>
+	<li>
+		Focado no desenvolvimento de aplicativos.
+	</li>
+	<li>
+		O gerenciamento de plataforma é realizado pelo provedor de nuvem.
+	</li>
+</ul>
+
+## SaaS
+Os usuários se conectam e usam aplicativos com base em nuvem pela Internet: por exemplo, Microsoft Office 365, email e calendários.
+<ul>
+	<li>
+		Modelo de preço de pagamento conforme o uso.
+	</li>
+	<li>
+		Os usuários pagam pelo software que utilizam em um modelo de assinatura.
+	</li>
+</ul>
+
+
+## Modelo de responsabilidade compartilhada
+
+![image](https://github.com/user-attachments/assets/650af68c-e954-4a8f-85c1-a0c670770ff9)
+
