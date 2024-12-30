@@ -169,8 +169,141 @@ Os usuários se conectam e usam aplicativos com base em nuvem pela Internet: por
 	</li>
 </ul>
 
-
 ## Modelo de responsabilidade compartilhada
 
 ![image](https://github.com/user-attachments/assets/650af68c-e954-4a8f-85c1-a0c670770ff9)
+
+<h1>
+    <span> Arquitetura e serviços do Azure 	</span>
+</h1>
+
+## Regiões
+O Azure oferece mais regiões globais do que qualquer outro provedor de nuvem, com mais de 60 regiões representando mais de 140 países.
+
+<ul>
+	<li>
+		As regiões são compostas de um ou mais datacenters muito próximos.
+	</li>
+	<li>
+		Eles fornecem flexibilidade e escala para reduzir a latência do cliente.
+	</li>
+	<li>
+		As regiões preservam a residência dos dados com uma oferta abrangente de conformidade.
+	</li>	
+</ul>
+
+
+## Zonas de disponibilidade
+
+<ul>
+	<li>
+		Fornece proteção contra tempo de inatividade devido a falha do datacenter.
+	</li>
+	<li>
+		Separe fisicamente os datacenters dentro da mesma região.
+	</li>
+	<li>
+		Cada datacenter é equipado com alimentação, resfriamento e rede independentes.
+	</li>	
+	<li>
+		Conectadas por meio de redes privadas de fibra óptica.
+	</li>	
+</ul>
+
+
+## Pares de Regiões
+
+<ul>
+	<li>
+		No mínimo 300 milhas de separação entre pares de regiões.
+	</li>
+	<li>
+		Replicação automática para alguns serviços.
+	</li>
+	<li>
+		Recuperação de região priorizada em caso de interrupção.
+	</li>	
+	<li>
+		As atualizações são distribuídas sequencialmente para minimizar o tempo de inatividade
+	</li>	
+	<li>
+		Link da Web : https://aka.ms/PairedRegions-ptb 
+	</li>	
+
+</ul>
+
+## Regiões soberanas do Azure
+
+### Serviços Governamentais dos EUA
+
+<ul>
+	<li>
+		Atende às necessidades de segurança e conformidade das agências federais, governos estaduais e locais dos EUA e seus provedores de soluções.
+	</li>
+</ul>
+
+## Azure Governamental
+
+<ul>
+	<li>
+		Instância separada do Azure.
+	</li>
+	<li>
+		Fisicamente isolada de implantações que não sejam do governo dos EUA.
+	</li>
+	<li>
+		Acessível somente a pessoal verificado e autorizado.
+	</li>
+</ul>
+
+## Recursos do Azure
+
+<ul>
+	<li>
+		Os recursos do Azure são componentes como armazenamento, máquinas virtuais e redes que estão disponíveis para criar soluções de nuvem.
+	</li>
+</ul>
+
+
+## Grupos de recursos
+<ul>
+	<li>
+		Um grupo de recursos é um contêiner que você usa para gerenciar e agregar recursos em uma única unidade.
+	</li>
+	<li>
+		Os recursos podem existir em apenas um grupo de recursos.
+	</li>
+	<li>
+		Os recursos podem existir em diferentes regiões.
+	</li>
+	<li>
+		Os recursos podem ser movidos para diferentes grupos de recursos.
+	</li>
+	<li>
+		Os aplicativos podem utilizar vários grupos de recursos.
+	</li>	
+</ul>
+
+## Assinaturas do Azure
+<ul>
+	<li>
+		Uma assinatura do Azure fornece a você acesso autenticado e autorizado às contas do Azure.
+	</li>
+</ul>
+
+### Limite de cobrança: 
+Gere relatórios de cobrança e faturas separados para cada assinatura.
+
+### Limite do controle de acesso: 
+Gerenciar e controlar o acesso aos recursos que os usuários podem provisionar com assinaturas específicas.
+
+## Grupos de gerenciamento
+<ul>
+	<li>
+		Os grupos de gerenciamento podem incluir várias assinaturas do Azure.
+	</li>
+	<li>
+		As assinaturas herdam as condições aplicadas ao grupo de gerenciamento.
+	</li>
+</ul>
 
