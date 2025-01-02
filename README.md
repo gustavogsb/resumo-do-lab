@@ -307,3 +307,163 @@ Gerenciar e controlar o acesso aos recursos que os usuários podem provisionar c
 	</li>
 </ul>
 
+<h1>
+    <span> Computação e Rede </span>
+</h1>
+
+## Serviços de computação do Azure
+A Computação do Azure é um serviço sob demanda que fornece recursos de computação, como discos, processadores, memória, rede e sistemas operacionais.
+
+
+## Máquinas virtuais do Azure
+
+
+<ul>
+	<li>
+		As máquinas virtuais do Azure (VMs) são emulações de software de computadores físicos. 
+	</li>
+	<li>
+		Inclui processador virtual, memória, armazenamento e rede.
+	</li>
+	<li>
+		Cada datacenter é equipado com alimentação, resfriamento e rede independentes.
+	</li>	
+	<li>
+		Oferta de IaaS que oferece personalização e controle total.
+	</li>	
+</ul>
+
+
+## Conjuntos de dimensionamento de VMs
+Os conjuntos de dimensionamento oferecem uma oportunidade de balanceamento de carga para dimensionar os recursos automaticamente. <br>
+Dimensionamento (Scale Sets): Focado em escalabilidade automática e aumento da capacidade com várias VMs idênticas.
+
+<ul>
+	<li>
+		Escalar horizontalmente quando o recurso precisar aumentar.
+	</li>
+	<li>
+		Reduzir horizontalmente quando o recurso precisar diminuir.
+	</li>
+</ul>
+
+### Exemplo:
+Você está executando um site de e-commerce. Durante a Black Friday, quando o tráfego aumenta, o conjunto de dimensionamento automaticamente adiciona mais VMs para lidar com a carga. Após o pico, reduz o número de VMs para economizar custos.
+
+## Conjuntos de disponibilidade de VM
+São usados para garantir alta disponibilidade ao distribuir máquinas virtuais por múltiplas domínios de falha e domínios de atualização. Isso reduz o risco de todas as VMs ficarem indisponíveis por falha de hardware ou manutenção.<br>
+Disponibilidade (Availability Sets): Focado em redundância e resiliência, garantindo que as VMs estejam distribuídas para minimizar impactos de falhas.
+
+### Exemplo:
+Você possui um banco de dados crítico. Para evitar indisponibilidade, suas VMs são distribuídas em um conjunto de disponibilidade. Mesmo que uma zona tenha uma falha, outras VMs continuarão funcionando.
+
+
+## Área de Trabalho Virtual do Azure
+A Área de Trabalho Virtual do Azure é uma virtualização de área de trabalho e aplicativo executada na nuvem.<br>
+A Área de Trabalho Virtual do Azure (Azure Virtual Desktop - AVD) é um serviço que permite criar um ambiente de desktop remoto na nuvem. Ele oferece acesso seguro a desktops Windows ou aplicativos, que podem ser acessados de qualquer lugar, usando qualquer dispositivo com internet.<br>
+É como ter o seu computador (desktop ou laptop) "rodando" na nuvem, em vez de estar fisicamente na sua mesa. Você pode acessar esse "computador virtual" de qualquer lugar, mantendo seus aplicativos e arquivos disponíveis de forma segura.<br>
+O logon de vários clientes permite que vários usuários façam logon no mesmo computador na ao mesmo tempo
+
+## Serviços de contêineres do Azure
+Os contêineres do Azure fornecem um ambiente leve e virtualizado que não exige o gerenciamento do sistema operacional e pode responder a alterações sob demanda. <br>
+Os Serviços de Contêineres do Azure são ferramentas e plataformas oferecidas pelo Azure para gerenciar, implantar e escalar aplicativos em contêineres. Um contêiner é como uma "caixa" que embala o aplicativo junto com tudo o que ele precisa para funcionar (bibliotecas, dependências, etc.), garantindo que ele rode de forma consistente em diferentes ambientes.<br>
+Pense nos contêineres como "mini-servidores" portáteis que você pode mover e executar em qualquer lugar. O Azure oferece serviços que ajudam a rodar e gerenciar esses contêineres de maneira fácil e eficiente.
+
+### Instâncias de Contêiner do Azure: 
+Uma oferta de PaaS que executa um contêiner ou pod de contêineres no Azure.
+
+### Aplicativos de Contêiner do Azure: 
+Uma oferta de PaaS, como instâncias de contêineres, que pode balancear a carga e escalar.
+
+### Serviço de Kubernetes do Azure:
+Um serviço de orquestração para contêineres com arquiteturas distribuídas e grandes volumes de contêineres. 
+
+
+## Azure Functions
+Uma oferta de PaaS que dá suporte a operações de computação sem servidor. <br>
+O código baseado em eventos é executado quando chamado, sem exigir uma infraestrutura de servidor durante períodos inativos.<br>
+O Azure Function é um serviço de computação baseado em serverless (sem servidor). Ele permite que você execute pequenos pedaços de código (chamados de "funções") em resposta a eventos, sem se preocupar com a infraestrutura subjacente. O Azure gerencia automaticamente os servidores e recursos necessários para executar o código.<br>
+Pense no Azure Function como um "assistente automático". Quando algo acontece, como um arquivo ser enviado ou uma mensagem chegar, ele executa o código necessário para lidar com essa ação. Você paga apenas pelo tempo que o código é executado.
+
+
+## Serviços de Aplicativo do Azure
+Os Serviços de Aplicativos do Azure consistem em uma plataforma totalmente gerenciada para criar, implantar e dimensionar aplicativos Web e APIs rapidamente. 
+
+<ul>
+	<li>
+		Trabalha com .NET, .NET Core, Node.js, Java, Python ou PHP.
+	</li>
+	<li>
+		Oferta de PaaS com requisitos de nível corporativo de desempenho, segurança e conformidade.
+	</li>
+</ul>
+
+## Serviços de rede do Azure
+A Rede Virtual do Azure (VNet) permite que os recursos do Azure se comuniquem uns com os outros, com a Internet e com as redes locais.<br>
+Pontos de extremidade públicos, acessíveis de qualquer lugar na Internet.<br>
+Pontos de extremidade privados, acessíveis somente de dentro da sua rede.<br>
+As sub-redes virtuais segmentam sua rede para atender às suas necessidades.<br>
+O emparelhamento de rede conecta suas redes privadas diretamente.
+
+### Gateway de VPN
+O Gateway de VPN permite criar uma conexão segura e criptografada entre sua rede local (ou outra rede virtual) e o Azure, usando a internet.<br>
+
+#### Exemplo prático:
+Uma empresa quer que seus funcionários acessem recursos na nuvem do Azure (como servidores ou bancos de dados) de forma segura a partir do escritório local. Eles configuram um Gateway de VPN para estabelecer uma conexão protegida via internet.
+
+### ExpressRoute
+O ExpressRoute cria uma conexão privada e dedicada entre sua rede local e o Azure, sem passar pela internet. É ideal para alta segurança, baixa latência e transferência de dados em grande escala.
+
+#### Exemplo prático:
+Uma instituição financeira com altos requisitos de segurança precisa transferir grandes volumes de dados entre seus servidores locais e o Azure. Ela usa o ExpressRoute para criar uma conexão privada e confiável.<br>
+
+### Diferenças principais entre VPN Gateway e ExpressRoute:
+<table border="1" style="border-collapse: collapse; width: 100%; text-align: left;">
+  <thead>
+    <tr>
+      <th style="padding: 8px; background-color: #f2f2f2;">Aspecto</th>
+      <th style="padding: 8px; background-color: #f2f2f2;">VPN Gateway</th>
+      <th style="padding: 8px; background-color: #f2f2f2;">ExpressRoute</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px;">Tipo de conexão</td>
+      <td style="padding: 8px;">Criptografada pela internet</td>
+      <td style="padding: 8px;">Conexão privada e dedicada</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;">Segurança</td>
+      <td style="padding: 8px;">Boa segurança</td>
+      <td style="padding: 8px;">Muito alta segurança</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;">Velocidade/Latência</td>
+      <td style="padding: 8px;">Latência maior, limitada pela internet</td>
+      <td style="padding: 8px;">Latência baixa, conexão rápida</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;">Custo</td>
+      <td style="padding: 8px;">Mais acessível</td>
+      <td style="padding: 8px;">Mais caro, mas para demandas críticas</td>
+    </tr>
+  </tbody>
+</table>
+
+
+### DNS do Azure
+O Azure DNS é um serviço que permite hospedar zonas DNS e gerenciar os registros DNS de seus domínios. Ele traduz nomes de domínio amigáveis, como www.exemplo.com, em endereços IP, que os computadores utilizam para se conectar.<br>
+Com o Azure DNS, você pode configurar os registros DNS para os seus aplicativos, garantindo alta disponibilidade e desempenho.<br>
+
+#### Exemplo prático:
+Imagine que você tenha um aplicativo hospedado no Azure em um endereço IP, como 20.45.67.89.
+
+<ul>
+	<li>
+		Você quer que os usuários acessem o aplicativo digitando www.meusite.com.
+	</li>
+	<li>
+		Com o Azure DNS, você cria um registro A que aponta www.meusite.com para o endereço IP do seu aplicativo.
+	</li>
+</ul>
+Agora, sempre que alguém digitar www.meusite.com, o DNS do Azure traduzirá automaticamente para 20.45.67.89, conectando o usuário ao seu aplicativo.
