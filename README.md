@@ -467,3 +467,129 @@ Imagine que você tenha um aplicativo hospedado no Azure em um endereço IP, com
 	</li>
 </ul>
 Agora, sempre que alguém digitar www.meusite.com, o DNS do Azure traduzirá automaticamente para 20.45.67.89, conectando o usuário ao seu aplicativo.
+
+<h1>
+    <span> Armazenamento </span>
+</h1>
+
+## Contas de Armazenamento
+
+<ul>
+	<li>
+		Deve ter um nome globalmente exclusivo.
+	</li>
+	<li>
+		Fornecer acesso à Internet em todo o mundo.
+	</li>
+	<li>
+		Determinar os serviços de armazenamento e as opções de redundância.
+	</li>	
+</ul>
+
+## Redundância de armazenamento
+
+![image](https://github.com/user-attachments/assets/d895d1fa-3d63-4e15-88c5-e43c58d62733)
+
+## Serviços de armazenamento do Azure
+
+### Blob do Azure
+Otimizado para o armazenamento de quantidades massivas de dados não estruturados, como texto ou dados binários.
+
+### Disco do Azure
+Fornece discos para máquinas virtuais, aplicativos e outros serviços acessarem e utilizarem.
+
+### Fila do Azure
+Serviço de armazenamento de mensagens que fornece armazenamento e recuperação para grandes quantidades de mensagens, cada uma com até 64 KB.
+
+### Arquivos do Azure
+Configura um compartilhamento de arquivos de rede altamente disponível que pode ser utilizado usando o protocolo Bloco de Mensagens do Servidor.
+
+### Tabelas do Azure
+Fornece uma opção de chave/atributo para o armazenamento de dados estruturados não relacionais com um design sem esquema.
+
+## Pontos de extremidade públicos do serviço de armazenamento
+
+![image](https://github.com/user-attachments/assets/fd71474b-b7a0-4d1b-9d25-62494838f400)
+
+## Camadas de acesso de armazenamento do Azure
+
+![image](https://github.com/user-attachments/assets/47cb30f6-a465-4df5-8f23-728df5893166)
+
+
+## Migrações para o Azure
+
+<ul>
+	<li>
+		Plataforma de migração unificada.
+	</li>
+	<li>
+		Inclui processador virtual, memória, armazenamento e rede.
+	</li>
+	<li>
+		Intervalo de ferramentas integradas e autônomas.
+	</li>	
+	<li>
+		Avaliação e migração.
+	</li>	
+</ul>
+
+
+### Azure Data Box
+
+<ul>
+	<li>
+		Armazenar até 80 terabytes de dados.
+	</li>
+	<li>
+		Mova os backups de recuperação de desastre para o Azure.
+	</li>
+	<li>
+		Proteja seus dados em uma caixa robusta durante o trânsito.
+	</li>
+	<li>	
+		Migre dados do Azure para conformidade ou necessidades regulatórias.
+	</li>
+	<li>
+		Migre dados para o Azure de locais remotos com conectividade limitada ou sem conectividade.
+	</li>
+</ul>
+
+## Opções de gerenciamento de arquivos
+
+###  AzCopy
+
+<ul>
+	<li>
+		Utilitário de linha de comando.
+	</li>
+	<li>
+		Copiar blobs ou arquivos de ou para sua conta de armazenamento.
+	</li>
+	<li>
+		Sincronização em uma direção.
+	</li>	
+</ul>
+
+### Gerenciador de Armazenamento do Azure
+
+<ul>
+	<li>
+		Interface gráfica do usuário (de modo semelhante ao Windows Explorer).
+	</li>
+	<li>
+		Compatível com o Windows, MacOS e Linux.
+	</li>
+</ul>
+
+### Sincronização de Arquivos do Azure
+
+<ul>
+	<li>
+		Sincroniza os arquivos do Azure e locais de forma bidirecional.
+	</li>
+	<li>
+		A camada de nuvem mantém os arquivos acessados com frequência no local, enquanto libera espaço.
+	</li>
+</ul>
+
+
