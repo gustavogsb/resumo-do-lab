@@ -592,4 +592,269 @@ Fornece uma opção de chave/atributo para o armazenamento de dados estruturados
 	</li>
 </ul>
 
+## Identidade, acesso e segurança: domínio de objetivo
 
+### ID do Microsoft Entra
+É o serviço de gerenciamento de identidades e acesso baseado em nuvem do Microsoft Azure. 
+
+<ul>
+	<li>
+		Autenticação (os funcionários entram para acessar os recursos).
+	</li>
+	<li>
+		Logon único (SSO)
+	</li>
+	<li>
+		Gerenciamento de aplicativos.
+	</li>	
+	<li>
+		Negócios para Negócios (B2B).
+	</li>	
+	<li>
+	Gerenciamento de dispositivos.
+	</li>		
+</ul>
+
+
+### Microsoft Entra Domain Services
+
+<ul>
+	<li>
+		Obtenha os benefícios dos serviços de domínio baseados em nuvem sem gerenciar os controladores de domínio.
+	</li>
+	<li>
+		Execute aplicativos herdados (que não podem utilizar os padrões de autenticação modernos) na nuvem.
+	</li>
+	<li>
+		Sincronizar automaticamente a partir do Microsoft Entra ID.
+	</li>	
+</ul>
+
+
+## Comparar a autenticação e autorização
+
+### Autenticação
+
+<ul>
+	<li>
+		Identifica a pessoa ou serviço buscando acesso a um recurso. 
+	</li>
+	<li>
+		Solicita credenciais de acesso legítimo.
+	</li>
+	<li>
+		Base para criar princípios de identidade e controle de acesso seguros.
+	</li>	
+</ul>
+
+
+###  Autorização
+
+<ul>
+	<li>
+		Determina o nível de acesso de uma pessoa ou serviço autenticado.
+	</li>
+	<li>
+		Define quais dados eles podem acessar e o que podem fazer com eles.
+	</li>
+</ul>
+
+
+### Autenticação multifator
+Fornece segurança adicional para as identidades, exigindo dois ou mais elementos para autenticação completa. 
+
+<ul>
+	<li>
+		Um recurso que exige mais de uma forma de autenticação, como senha + código de um aplicativo ou biometria.
+	</li>
+	<li>
+		É uma camada adicional para garantir a segurança.
+	</li>
+</ul>
+
+
+## Microsoft Entra External ID (Azure AD B2B)
+Uma solução voltada para colaboração entre empresas. Permite que usuários de outras organizações (parceiros, fornecedores, clientes corporativos) acessem recursos compartilhados em sua organização.
+
+<ul>
+	<li>
+		Integra identidades existentes dos convidados (como Azure AD, Google, ou conta Microsoft), sem necessidade de criar novas contas.
+	</li>
+	<li>
+		Foco: Cenários B2B (Business-to-Business), ou seja, entre empresas.
+	</li>
+</ul>
+
+## Azure AD B2C (Identidades Externas)
+Uma solução voltada para clientes finais de uma organização. Permite criar experiências de login personalizadas para consumidores, incluindo suporte para redes sociais, contas locais ou provedores externos.
+<ul>
+	<li>
+		Cria experiências de autenticação focadas em clientes com personalização de interface.
+	</li>
+	<li>
+		Foco: Cenários B2C (Business-to-Consumer), ou seja, entre empresas e consumidores finais.
+	</li>
+</ul>
+
+<table>
+<caption><b>Comparação entre Microsoft Entra External ID (Azure AD B2B) e Azure AD B2C</b></caption>
+<thead>
+    <tr>
+	<th>Aspecto</th>
+	<th>Microsoft Entra External ID (Azure AD B2B)</th>
+	<th>Azure AD B2C</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+	<td>Público-alvo</td>
+	<td>Colaboradores externos, como parceiros e fornecedores.</td>
+	<td>Consumidores ou clientes finais de uma empresa.</td>
+    </tr>
+    <tr>
+	<td>Tipo de integração</td>
+	<td>Usuários externos são adicionados como convidados no diretório da empresa.</td>
+	<td>Permite que consumidores usem suas próprias contas (Google, Facebook, etc.) para login.</td>
+    </tr>
+    <tr>
+	<td>Casos de uso</td>
+	<td>Colaboração segura entre organizações em aplicativos e serviços corporativos.</td>
+	<td>Autenticação e personalização de serviços para consumidores finais.</td>
+    </tr>
+    <tr>
+	<td>Gerenciamento de identidade</td>
+	<td>Baseado em Microsoft Entra ID (Azure AD) com políticas de acesso e identidade corporativa.</td>
+	<td>Gerenciamento dedicado para experiências de cliente com personalização avançada.</td>
+    </tr>
+    <tr>
+	<td>Exemplo</td>
+	<td>Um fornecedor acessa documentos em um site SharePoint da empresa.</td>
+	<td>Um cliente faz login em um portal de e-commerce usando sua conta do Google.</td>
+    </tr>
+</tbody>
+</table>
+
+## Acesso Condicional
+É um recurso de segurança no Microsoft Entra ID (anteriormente Azure AD) que permite criar políticas automatizadas para controlar o acesso aos recursos de acordo com condições específicas. É uma aplicação do conceito de Zero Trust, onde o acesso não é concedido automaticamente, mas com base em critérios como quem está tentando acessar, de onde, como e com quais dispositivos.
+<ul>
+	<li>
+		É utilizado para reunir sinais, tomar decisões e impor políticas organizacionais.
+	</li>
+	<li>
+		O Acesso Condicional avalia as condições de cada tentativa de acesso e aplica políticas configuradas pela organização para permitir ou bloquear o acesso, ou exigir ações adicionais, como autenticação multifator (MFA)..
+	</li>
+	<li>
+		Associação de usuário ou grupo: Quem está tentando acessar.
+	</li>
+		Local do IP: De onde o acesso está sendo feito.
+	<li>
+		Aplicativo: Qual recurso está sendo acessado?	
+	</li>
+	<li>
+		Detecção de risco: A tentativa de login é suspeita?
+	</li>	
+	<li>
+		Dispositivo: O dispositivo está registrado ou gerenciado?
+	</li>	
+</ul>
+
+## Controle de acesso baseado em função (Role-Based Access Control - RBAC) 
+ É um sistema de gerenciamento de permissões que permite conceder acesso a usuários, grupos ou aplicativos com base em funções específicas. Ele define quem pode realizar quais ações em quais recursos do Azure, de forma granular e baseada no princípio do menor privilégio (os usuários só recebem as permissões necessárias para realizar suas tarefas).
+<ul>
+	<li>
+		Gerenciamento de acesso de granularidade fina.
+	</li>
+	<li>
+		Divida as tarefas dentro da equipe e conceda somente a quantidade de acesso de que os usuários precisam para trabalhar.
+	</li>
+	<li>
+		Habilite o acesso ao portal do Azure e o controle de acesso aos recursos.
+	</li>	
+</ul>
+
+## Confiança Zero
+O modelo de Confiança Zero parte do princípio de que nenhuma entidade, seja interna ou externa à organização, é confiável por padrão. Cada acesso precisa ser continuamente verificado, autenticado e validado, independentemente de onde o usuário, dispositivo ou serviço esteja localizado.
+
+<ul>
+	<li>
+		Nunca confie, sempre verifique: Todo acesso deve ser autenticado e autorizado antes de ser concedido.
+	</li>
+	<li>
+		Privilégios mínimos: Conceder apenas as permissões necessárias para realizar uma tarefa, reduzindo o risco de abuso.
+	</li>
+	<li>
+		Acesso contínuo e baseado em contexto: Verificação dinâmica baseada em fatores como identidade do usuário, localização, estado do dispositivo, horário e comportamento.
+	</li>	
+</ul>
+
+##  Proteção Completa (Comprehensive Security)
+O conceito de Proteção Completa visa criar uma estratégia de segurança unificada e abrangente, cobrindo todos os vetores de ataque possíveis e protegendo todos os ativos da organização, como identidades, dados, dispositivos, aplicativos, infraestrutura e redes.
+
+<ul>
+	<li>
+		Proteção de identidades: Controle de acesso, autenticação multifator e monitoramento.
+	</li>
+	<li>
+		Privilégios mínimos: Conceder apenas as permissões necessárias para realizar uma tarefa, reduzindo o risco de abuso.
+	</li>
+	<li>
+		Proteção de dados: Criptografia e prevenção contra vazamentos (DLP - Data Loss Prevention).
+	</li>	
+	<li>
+		Proteção contra ameaças: Ferramentas de detecção e resposta, como EDR (Endpoint Detection and Response) e SIEM (Security Information and Event Management).
+	</li>		
+</ul>
+
+<table>
+        <caption><b>Diferenças entre Confiança Zero e Proteção Completa</b>b></caption>
+        <thead>
+            <tr>
+                <th>Aspecto</th>
+                <th>Confiança Zero (Zero Trust)</th>
+                <th>Proteção Completa (Comprehensive Security)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Foco</td>
+                <td>Acessos contínuos e verificados, sem confiar em ninguém.</td>
+                <td>Estratégia abrangente para proteger todos os ativos.</td>
+            </tr>
+            <tr>
+                <td>Abrangência</td>
+                <td>Concentra-se na identidade, dispositivo e acesso.</td>
+                <td>Inclui identidades, dados, dispositivos, redes e mais.</td>
+            </tr>
+            <tr>
+                <td>Objetivo</td>
+                <td>Prevenir acessos indevidos ou não autorizados.</td>
+                <td>Proteger contra uma ampla gama de ameaças.</td>
+            </tr>
+            <tr>
+                <td>Escopo principal</td>
+                <td>Identidade e controle de acesso.</td>
+                <td>Segurança em todos os níveis (dados, redes, dispositivos).</td>
+            </tr>
+        </tbody>
+    </table>
+
+## Microsoft Defender para Nuvem
+É um serviço de monitoramento que fornece proteção contra ameaças nos datacenters do Azure e locais. <br>
+O Microsoft Defender para Nuvem é uma ferramenta essencial para empresas que querem fortalecer a segurança de suas cargas de trabalho na nuvem e em ambientes híbridos. Ele combina gerenciamento de postura de segurança, proteção contra ameaças, conformidade e automação, ajudando a reduzir riscos e a proteger dados e recursos em um mundo cada vez mais digital.
+
+### Recursos do Azure
+
+<ul>
+	<li>
+		Fornece recomendações de segurança.
+	</li>
+	<li>
+		Detectar e bloquear malware.
+	</li>
+	<li>
+		Analisar e identificar ataques potenciais.
+	</li>	
+	<li>
+		Controle de acesso just-in-time para portas.
+	</li>		
+</ul>
