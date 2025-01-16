@@ -858,3 +858,121 @@ O Microsoft Defender para Nuvem é uma ferramenta essencial para empresas que qu
 		Controle de acesso just-in-time para portas.
 	</li>		
 </ul>
+
+## Gerenciamento de Custos
+
+## Fatores que afetam os custos
+
+![image](https://github.com/user-attachments/assets/252dd585-ce5b-46ae-af4b-235badef0be6)
+
+![image](https://github.com/user-attachments/assets/84dea93d-fa10-4220-836e-a6c565baa4f0)
+
+![image](https://github.com/user-attachments/assets/eb040a2c-f406-4c72-b564-1b2e914a0d8b)
+
+![image](https://github.com/user-attachments/assets/81ed169e-905f-43ba-a7ed-8427ae0ad45b)
+
+![image](https://github.com/user-attachments/assets/f02e529e-fb4e-4297-8472-daf7e5f58fdf)
+
+![image](https://github.com/user-attachments/assets/f1b91369-11e5-460e-a25b-0cfd2232075a)
+
+## Explorar o Azure Marketplace
+O Azure Marketplace permite que os clientes encontrem, experimentem, comprem e provisionem aplicativos e serviços de centenas de provedores de serviços líderes, que são todos certificados para execução no Azure.
+<ul>
+	<li>
+		Plataformas de contêiner de software livre.
+	</li>
+	<li>
+		Imagens da máquina virtual e do banco de dados
+	</li>
+	<li>
+		Software de compilação e implantação de aplicativos.
+	</li>	
+	<li>
+		Ferramentas para desenvolvedores.
+	</li>	
+	<li>	
+		E muito mais, com mais de 10.000 itens listados!
+	</li>	
+</ul>
+
+## Calculadora de preços
+A calculadora de preços é uma ferramenta que ajuda a estimar o custo dos produtos do Azure. <br>
+As opções que você pode configurar na calculadora de preços variam entre os produtos, mas as opções básicas de configuração incluem:
+
+<ul>
+	<li>
+		Região.
+	</li>
+	<li>
+		Camada.
+	</li>
+	<li>
+		Opções de cobrança
+	</li>	
+	<li>
+		Opções de suporte.
+	</li>	
+	<li>	
+		Programas e ofertas
+	</li>	
+	<li>	
+		Preço de Desenvolvimento/Teste do Azure
+	</li>	
+</ul>
+
+## Calculadora de custo total de propriedade (TCO)
+
+<ul>
+	<li>
+		Uma ferramenta para estimar a economia de custos possível ao migrar para o Azure.
+	</li>
+	<li>
+		Um relatório compara os custos das infraestruturas locais com os custos de uso de produtos e serviços do Azure na nuvem.
+	</li>
+</ul>
+
+
+## Gerenciamento de Custos do Azure
+
+<ul>
+	<li>
+		Relatório: relatórios de cobrança
+	</li>
+	<li>
+		Enriquecimento de dados
+	</li>
+	<li>
+		Orçamentos: definir orçamento de gastos
+	</li>	
+	<li>
+		Alertas: quando o custo excede os limites
+	</li>	
+	<li>
+		Recomendação: recomendações de custo
+	</li>		
+</ul>
+
+
+## Marcas(TAGS)
+
+<ul>
+	<li>
+		Fornecem metadados aos recursos do Azure. 
+	</li>
+	<li>
+		Organizam os recursos em uma taxonomia de maneira lógica. 
+	</li>
+	<li>
+		Consistem em um par nome-valor.
+	</li>
+	<li>
+		Muito úteis para reunir informações de cobrança.
+	</li>	
+</ul>
+
+
+
+
+
+
+     
