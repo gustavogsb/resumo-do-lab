@@ -970,6 +970,59 @@ As opções que você pode configurar na calculadora de preços variam entre os 
 	</li>	
 </ul>
 
+## Gerenciamento e Governança
+
+## Governança e Conformidade
+
+### Azure Policy
+
+O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade em escala.<br> 
+Ele fornece governança e consistência de recursos com conformidade regulatória, segurança, custo e gerenciamento.
+
+<ul>
+	<li>
+		Avalia e identifica os recursos do Azure que não atendem às suas políticas.
+	</li>
+	<li>
+		Fornece definições de políticas e iniciativas integradas, em categorias como armazenamento, rede, computação, central de segurança e monitoramento.
+	</li>
+</ul>
+
+
+### Bloqueios de recursos
+
+<ul>
+	<li>
+		Proteja os recursos do Azure de exclusão ou modificação acidental. 
+	</li>
+	<li>
+		Gerenciar bloqueios na assinatura, grupo de recursos ou níveis de recursos individuais dentro do Portal do Azure.
+	</li>
+</ul>
+
+![image](https://github.com/user-attachments/assets/609b0320-a760-48e6-8c72-bb0d1ae3391a)
+
+### Portal de Confiança do Serviço
+
+![image](https://github.com/user-attachments/assets/2eda648d-a39b-4fe2-a222-2ac193c9381b)
+
+### Microsoft Purview
+
+O Microsoft Purview é uma família de soluções de governança, risco e conformidade de dados que ajuda você a obter uma única exibição unificada em seus dados. O Microsoft Purview reúne insights sobre seus dados locais, multinuvem e de software como serviço.
+<ul>
+	<li>
+		Descoberta de dados automatizada. 
+	</li>
+	<li>
+		Classificação de dados confidenciais. 
+	</li>
+	<li>
+		Linhagem de dados de ponta a ponta.
+	</li>
+</ul>
+
+
+
 
 
 
