@@ -14,7 +14,7 @@ A computação em nuvem é o fornecimento de serviços de computação pela Inte
 As organizações criam um ambiente em nuvem em seu datacenter.<br>
 As organizações são responsáveis por operar os serviços que fornecem.<br>
 Não fornece acesso aos usuários fora da organização.<br>
-As organizações têm controle total sobre os recursos e a segurança.<br> 
+As organizações têm controle total sobre os recursos e a segurança.<br>
 As organizações são responsáveis pela manutenção e pelas atualizações de hardware.
 
 ## Nuvem pública
