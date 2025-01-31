@@ -1021,11 +1021,125 @@ O Microsoft Purview é uma família de soluções de governança, risco e confor
 	</li>
 </ul>
 
+## Ferramentas de Gerenciamento e Implantação
+
+![image](https://github.com/user-attachments/assets/25ea9c30-7759-4f7c-9076-4012590384e7)
+
+###  Portal do Azure
+O Portal do Azure é uma interface web gráfica (GUI) fornecida pela Microsoft para gerenciar e monitorar recursos e serviços do Microsoft Azure.
+
+<ul>
+	<li>
+		Interface amigável para administradores e desenvolvedores.
+	</li>
+	<li>
+		Gerenciamento de segurança, identidade e permissões com Azure Active Directory.
+	</li>
+	<li>
+		Automatização de tarefas com suporte a templates (Bicep, JSON) e scripts.
+	</li>	
+</ul>
+
+## Azure Cloud Shell
+O Azure Cloud Shell é um terminal baseado na nuvem, integrado ao Microsoft Azure, que permite gerenciar recursos diretamente pelo navegador, sem a necessidade de instalar ferramentas locais.
+
+<ul>
+	<li>
+		<b>Ferramentas Pré-instaladas:</b> Azure CLI, Azure PowerShell, Git, Terraform, e muito mais.
+	</li>
+	<li>
+		<b>Persistência de Arquivos:</b> Armazena arquivos em uma conta de armazenamento associada ao seu ambiente do Azure.
+	</li>
+	<li>
+	   <b>Acesso Remoto:</b> Use diretamente do navegador em qualquer dispositivo.
+	</li>
+	<li>
+	  <b>Segurança:</b> Evita a necessidade de gerenciar credenciais de login para cada comando.
+	</li>	
+</ul>
+
+## Azure Arc
+O Azure Arc é uma solução da Microsoft que permite gerenciar e governar recursos de TI localizados fora do ambiente nativo do Azure, como data centers locais, multiclouds (AWS, Google Cloud) e dispositivos de borda (Edge), de forma centralizada através do Azure.<br>
+
+  ### Principais Funcionalidades
+  <ol>
+    <li><strong>Gerenciamento Multicloud:</strong>  
+      <p>Conecta e gerencia máquinas virtuais de outras nuvens públicas, como AWS e Google Cloud.</p>
+    </li>
+    <li><strong>Extensão para Servidores Físicos:</strong>  
+      <p>Administra servidores físicos e máquinas virtuais no local.</p>
+    </li>
+    <li><strong>Kubernetes sob Controle:</strong>  
+      <p>Gerencia clusters Kubernetes em qualquer ambiente, com políticas e configurações unificadas.</p>
+    </li>
+    <li><strong>Banco de Dados Híbrido:</strong>  
+      <p>Gerencia instâncias de banco de dados SQL e PostgreSQL em infraestrutura on-premises ou nuvem.</p>
+    </li>
+    <li><strong>Governança Centralizada:</strong>  
+      <p>Aplica políticas, segurança e compliance de forma consistente.</p>
+    </li>
+  </ol>
+
+ ### Benefícios
+ <ul>
+	<li>
+		<b>Consistência Operacional:</b> Gerenciamento unificado entre Azure, ambientes locais e multicloud.
+	</li>
+	<li>
+		<b>Segurança Avançada:</b> Integra políticas de segurança e conformidade através do Azure Security Center.
+	</li>
+	<li>
+	   <b>Escalabilidade:</b> Permite expandir serviços do Azure para ambientes externos.
+	</li>
+</ul>
+
+![image](https://github.com/user-attachments/assets/b4ced69e-e7b3-454b-b333-8898d9dc5e93)
+
+## Azure Resource Manager
+O ARM (Azure Resource Manager) fornece uma camada de gerenciamento que permite criar, atualizar e excluir recursos na assinatura do Azure.
+
+![image](https://github.com/user-attachments/assets/0edf3a3e-b549-49d9-acb6-26afc46b685e)
+
+## Infraestrutura como código
+
+O ARM (Azure Resource Manager) fornece uma camada de gerenciamento que permite criar, atualizar e excluir recursos na assinatura do Azure.
+
+<ul>
+	<li>
+		Garanta consistência na implantação em todo o ecossistema de nuvem.
+	</li>
+	<li>
+		Gerencie a configuração em escala.
+	</li>
+	<li>
+		Provisione rapidamente ambientes adicionais com base em uma configuração e um build padrão.
+	</li>	
+</ul>
 
 
+## Modelos do ARM (Azure Resource Manager)
+Os modelos do ARM (Azure Resource Manager) são arquivos JSON (JavaScript Object Notation) que podem ser usados para criar e implantar a infraestrutura do Azure sem a necessidade de escrever comandos de programação.
 
-
-
+<ul>
+	<li>
+		Sintaxe declarativa
+	</li>
+	<li>
+		Resultados repetíveis
+	</li>
+	<li>
+		Orquestração
+	</li>
+	<li>
+		Arquivos modulares
+	</li>
+	<li>		
+		Validação integrada
+	</li>
+	<li>
+		Código exportável
+	</li>
+</ul>
 
 
      
