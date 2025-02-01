@@ -1141,5 +1141,48 @@ Os modelos do ARM (Azure Resource Manager) são arquivos JSON (JavaScript Object
 	</li>
 </ul>
 
+## Ferramentas de monitoramento
 
+
+### Assistente do Azure
+O Assistente do Azure analisa recursos implantados do Azure e faz recomendações com base nas práticas recomendadas para otimizar as implantações do Azure. 
+
+<ul>
+	<li>
+		Confiabilidade
+	</li>
+	<li>
+		Segurança
+	</li>
+	<li>
+		Desempenho
+	</li>
+	<li>
+		Custo
+	</li>
+	<li>
+		Excelência operacional
+	</li>
+</ul>
+
+![image](https://github.com/user-attachments/assets/0b00f3bf-8e47-477c-907e-cbc43450b988)
+
+
+### Integridade do Serviço do Azure
+A Integridade do Serviço do Azure é uma coleção de serviços que mantêm você informado sobre o status geral do Azure, status de serviços que podem afetar você e o status de recurso específico que está afetando você.
+
+<ol>
+	<li>
+		<b>Status do Azure:</b> visão global da integridade de todos os serviços do Azure em todas as regiões do Azure.
+	</li>
+	<li>
+		<b>Integridade do Serviço:</b> exibição focada apenas nos serviços e regiões que você está usando. Se um serviço estiver enfrentando um problema em uma região que você não está usando, ele não aparecerá aqui.
+	</li>
+	<li>
+		<b>Resource Health:</b> exibição personalizada dos recursos reais do Azure. Ele fornece informações sobre a integridade de seus recursos de nuvem individuais.
+	</li>
+	<li>
+	    <b>O Azure Monitor</b> maximiza a disponibilidade e o desempenho de aplicativos e serviços coletando, analisando e tomando decisões com base na telemetria da nuvem e de ambientes locais. 
+	</li>
+</ol>
      
